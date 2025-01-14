@@ -134,6 +134,14 @@ video:focus-visible {
     padding: 10px !important;
 }
 
+.container:not(.is-max-desktop) {
+    max-width: 3000px;
+}
+
+.container:not(.is-max-desktop):not(.is-max-widescreen) {
+    max-width: 3000px;
+}
+
 /* .column-video-cover a {
   position: relative;
   display: block;
